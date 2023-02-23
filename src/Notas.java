@@ -15,7 +15,7 @@ public class Notas {
 			notas += sc.nextInt();
 			}
 		
-		System.out.println("A média da sala é: " + (notas/alunos));
+		System.out.println("A média da sala é: " + (float) (notas/alunos));
 		
 		sc.close();
 	}
